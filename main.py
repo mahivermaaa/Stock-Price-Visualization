@@ -3,9 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns; sns.set()
 
-# Date must be in the format ("%Y-%m-%d") That is, year-month-day
-start_date = '2020-12-1'  # 1 December 2020
-end_date = '2023-2-2'     # 2 February 2023
+start_date = '2020-12-1'  
+end_date = '2023-2-2'    
 
 # Download data
 apple = yf.download(tickers="AAPL",
